@@ -5,7 +5,7 @@
 Console.WriteLine("Smartphone Nokia:");
 Smartphone nokia1 = new Nokia(numero: "12545852", modelo: "1101", IMEI2: "215215", memoria: 126);
 nokia1.Ligar();
-nokia1.InstalarAplicativo("Instagram");
+nokia1.InstalarAplicativo(nomeApp: "Instagram");
 nokia1.ReceberLigacao();
 
 Console.WriteLine("Smartphone iPHONE:");
